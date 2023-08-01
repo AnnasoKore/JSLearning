@@ -1,75 +1,111 @@
 console.log("-: For Loop :-");
-console.log("--------------------- Task - 1 --------------------");
+console.log("--------------- Task - 1 --------------");
+var result='';
 for (let index = 5; index <= 15; index++) {
-    console.log(index);
+    result=result.concat(index).concat(' ');
 }
-console.log("--------------------- Task - 2 --------------------");
+console.log(result);
+console.log("--------------- Task - 2 --------------");
+var result='';
 for (let index = 50; index >=40; index--) {
-    console.log(index);
-    
+        result=result.concat(index).concat(' ');
 }
-console.log("--------------------- Task - 3 --------------------");
+console.log(result);
+console.log("--------------- Task - 3 --------------");
+var result='';
 for (let index = 1; index < 30; index+=2) {
-   console.log(index);    
+       result=result.concat(index).concat(' ');
 }
-console.log("--------------------- Task - 4 --------------------");
+console.log(result);
+console.log("--------------- Task - 4 --------------");
+var result='';
 for (let index = 0; index <=18; index+=2) {
-   console.log(index);
+   result=result.concat(index).concat(' ');
 }
-console.log("--------------------- Task - 5 --------------------");
-var str="  ";
+console.log(result);
+console.log("--------------- Task - 5 --------------");
+var result='';
 for (let index = 5; index <=50; index+=5) {
-   console.log(`${index}`)
+   result=result.concat(index).concat(' ');
 }
-console.log("--------------------- Task - 6 --------------------");
+console.log(result);
+console.log("--------------- Task - 6 --------------");
+var result='';
 for (let index = 10; index <=100; index+=10) {
-    console.log(index);
+   result=result.concat(index).concat(' ');
 }
-console.log("--------------------- Task - 7 --------------------");
+console.log(result);
+console.log("--------------- Task - 7 --------------");
+var result='';
 for (let index = 100; index >=10; index-=10) {
-    console.log(index);
+    result=result.concat(index).concat(' ');
 }
+console.log(result);
 
-console.log('-: While Loop :-');
-console.log("--------------------- Task - 1 --------------------");
+console.log('\n-: While Loop :-');
+console.log("--------------- Task - 1 --------------");
 var i=5;
+var result='';
 while (i<=15) {
-    console.log(i);
+    result=result.concat(i).concat(' ');
     i++;
 }
-console.log("--------------------- Task - 2 --------------------");
+console.log(result);
+console.log("--------------- Task - 2 --------------");
 var a=50;
+var result='';
 while (a>=40) {
-    console.log(a);
+    result=result.concat(a).concat(' ');
     a--;
 }
-console.log("--------------------- Task - 3 --------------------");
+console.log(result);
+console.log("--------------- Task - 3 --------------");
 var b=1;
+var result='';
 while (b<30) {
-    console.log(b);
+    result=result.concat(b).concat(' ');
     b+=2;
 }
-console.log("--------------------- Task - 4 --------------------");
+console.log(result);
+console.log("--------------- Task - 4 --------------");
 var c=0;
+var result='';
 while (c<=18) {
-    console.log(c);
+    result=result.concat(c).concat(' ');
     c+=2;
 }
-console.log("--------------------- Task - 5 --------------------");
+console.log(result);
+console.log("--------------- Task - 5 --------------");
 var d=5;
+var resultStr='';
 while (d<=50) {
-    console.log(d);
+    resultStr=resultStr.concat(d).concat(' ');
     d+=5;
 }
-console.log("--------------------- Task - 6 --------------------");
+console.log(resultStr);
+console.log("--------------- Task - 6 --------------");
 var e=10;
+var result='';
 while (e<=100) {
-    console.log(e);
+    result=result.concat(e).concat(' ');
     e+=10;
 }
-console.log("--------------------- Task - 7 --------------------");
+console.log(result);
+console.log("--------------- Task - 7 --------------");
 var f=100;
+var result="";
 while (f>=10) {
-    console.log(f);
+    result=result.concat(f).concat(' ');
     f-=10;
 }
+console.log(result);
+
+console.log("\nSome extra examples on loops");
+console.log('Table 1 - 10');
+var result='';
+for (let index = 1; index <=10; index++) {
+    for (let index2 = 1; index2 <=10; index2++) {       
+   result=result.concat(index*index2).concat(' ');
+    }     
+}
+console.log(result);
