@@ -22,5 +22,7 @@ function stringHandsOn() {
     console.log(`Index of word 'good' is - ${str.trim().indexOf('good')}`);
     console.log(`Substring using substring() method at index - 22 is : "${str.trim().substring(22)}" \nand Substring using slice() method at index - 22 is : "${str.trim().slice(22)}"`);
     console.log(`String ends with word - 'up' is : ${str.trim().endsWith('up')} \nString starts with word - 'Hey' is : ${str.trim().startsWith('Hey')}`);
+    console.log(str.trim().charAt(0));
+    
 }
 stringHandsOn();
