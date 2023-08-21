@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>Web Local Storage</H2>
+    <script>
+        window.localStorage.setItem('Name', "More Ravi Babaso");//set kay- value using setItem() method
+        window.localStorage.setItem('city','Sangali');
+        window.localStorage.setItem('pinCode', '413307');
+        window.localStorage.setItem('District','Sangali');
+        console.log(window.localStorage.getItem('pinCode'));//get value using provided key in getItem() method
+        console.log(window.localStorage.getItem('District'));
+        console.log(window.localStorage.key(0), window.localStorage.key(2));//get key using provided index number in key() method
+        console.log(window.localStorage.length);//it will return number of key- value pairs
+        console.log(window.localStorage.removeItem('city'));//it will remove item using provided key
+        //console.log(window.localStorage.clear());//clear all items in localStorage
+    </script>
+    <H2>Web Session Storage</H2>
+    <script>
+        window.sessionStorage.setItem('Name', "kale dada abhaso");//set kay- value using setItem() method
+        window.sessionStorage.setItem('city','Solapur');
+        window.sessionStorage.setItem('pinCode', '452034');
+        window.sessionStorage.setItem('District','Solapur');
+        console.log(window.sessionStorage.getItem('pinCode'));//get value using provided key in getItem() method
+        console.log(window.sessionStorage.getItem('District'));
+        console.log(window.sessionStorage.key(1));//get key using provided index number in key() method
+        console.log(window.sessionStorage.length);//it will return number of key- value pairs
+        console.log(window.sessionStorage.removeItem('city'));//it will remove item using provided key
+       // console.log(window.sessionStorage.clear());//clear all items in SessionStorage
+    </script>
+</body>
+</html>
